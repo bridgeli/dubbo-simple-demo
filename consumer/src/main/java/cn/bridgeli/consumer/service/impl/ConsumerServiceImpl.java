@@ -10,7 +10,7 @@ import com.alibaba.dubbo.config.annotation.Reference;
 @Service
 public class ConsumerServiceImpl implements ConsumerService {
 
-    @Reference
+    @Reference(version="1.0.0")
     private ProviderService providerService;
 
     @Override
