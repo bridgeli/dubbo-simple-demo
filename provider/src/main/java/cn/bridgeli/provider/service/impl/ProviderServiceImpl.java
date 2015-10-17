@@ -7,7 +7,7 @@ import cn.bridgeli.provider.service.ProviderService;
 
 import com.alibaba.dubbo.config.annotation.Service;
 
-@Service
+@Service(version="1.0.0")
 public class ProviderServiceImpl implements ProviderService {
 
     private static final Logger LOG = LoggerFactory.getLogger(ProviderServiceImpl.class);
